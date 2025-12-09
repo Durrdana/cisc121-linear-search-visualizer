@@ -40,7 +40,7 @@ Test 3: Target at the Beginning**
 Input list: 5, 9, 8  
 Target: 5  
 Expected result: Target found at index 0  
-**Actual result: Correct  
+Actual result: Correct  
 The algorithm stopped immediately because the first value matched.
 
 Test 4: Single-Element List
@@ -53,7 +53,7 @@ Test 5: Invalid Input (letters)
 Input list: hello, 3, x  
 Target: 3  
 Expected result: Error message  
-Actual result: ✔ Correct  
+Actual result: Correct  
 The program displayed a validation error instead of crashing.
 
 Screenshots of Tests
