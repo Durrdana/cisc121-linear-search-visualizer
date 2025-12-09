@@ -15,7 +15,7 @@ Algorithm Design
 The program uses a simple flow: the user inputs a list of numbers and a target value into the Gradio interface.When they are pressing the button, the algorithm processes the list one after the other. For each index, it checks if the value equals the target and records the step. If the value matches, it stops and reports the index.  In case the list does not match, it reports that the target was not found. The output is shown as a list of steps so the user can follow the search visually. The interaction is simplified by the GUI since the user does not need to execute any code, he/she need only to input values and press a button.
 
 Flowchart
-
+![Flowchart](flowchart.png)
 
 
 https://huggingface.co/spaces/Durrdana/cisc121-linear-search-visualizer 
