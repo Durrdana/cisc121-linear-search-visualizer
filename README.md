@@ -17,6 +17,37 @@ The program uses a simple flow: the user inputs a list of numbers and a target v
 Flowchart
 ![Flowchart](Flowchart.jpg)
 
+How to Run the Program
+
+You can run the Linear Search Visualizer in two different ways:
+using the online version or running it locally on your computer.
+
+Option 1: Run the Online App 
+
+No installation required.
+Just open the link below and use the visualizer directly: https://huggingface.co/spaces/Durrdana/cisc121-linear-search-visualizer
+
+Option 2: Run the Program Locally
+
+If you prefer running the app on your own machine:
+
+Clone the repository
+git clone https://github.com/Durrdana/cisc121-linear-search-visualizer
+
+Navigate into the folder
+cd cisc121-linear-search-visualizer
+
+Install the required packages
+pip install -r requirements.txt
+
+Run the app
+python app.py
+
+Once the program starts, a local Gradio link will appear in your terminal.
+Click the link to open the visualizer in your browser.
+
+
+
 Testing & Verification
 
 To verify that my linear search visualizer works correctly, I tested it with several different types of inputs.  
