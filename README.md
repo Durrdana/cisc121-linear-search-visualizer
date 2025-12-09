@@ -22,21 +22,21 @@ Testing & Verification
 To verify that my linear search visualizer works correctly, I tested it with several different types of inputs.  
 For each test, I checked whether the output matched what the algorithm should return.
 
-Test 1: Target in the Middle**
+Test 1: Target in the Middle
 Input list: 5, 8, 2, 7, 9, 3  
 Target: 7  
 Expected result: Target found at index 3  
 Actual result: Correct  
 The visualizer showed each checked index and stopped when it reached 7.
 
-Test 2: Target Not in the List**
+Test 2: Target Not in the List
 Input list: 1, 2, 3, 4  
 Target: 10  
 Expected result: Target not found  
 Actual result: Correct  
 The program checked every element and displayed “Target not found.”
 
-Test 3: Target at the Beginning**
+Test 3: Target at the Beginning
 Input list: 5, 9, 8  
 Target: 5  
 Expected result: Target found at index 0  
