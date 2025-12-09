@@ -58,11 +58,11 @@ The program displayed a validation error instead of crashing.
 
 Screenshots of Tests
 
-![Test: Target Found](screenshot1.png)  
-![Test: Target Not Found](screenshot2.png)  
-![Test: Invalid Input](screenshot3.png)
-![Test: Single-Element List](screenshot3.png)
-![Test: Invalid Input (letters)](screenshot3.png)
+![Test: Target Found](Screenshot1.png)  
+![Test: Target Not Found](Screenshot2.png)  
+![Test: Invalid Input](Screenshot3.png)
+![Test: Single-Element List](Screenshot3.png)
+![Test: Invalid Input (letters)](Screenshot3.png)
 
 
 Overall, the app behaved correctly for valid and invalid inputs.  
