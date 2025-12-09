@@ -92,8 +92,8 @@ Screenshots of Tests
 ![Test: Target Found](Screenshot1.png)  
 ![Test: Target Not Found](Screenshot2.png)  
 ![Test: Invalid Input](Screenshot3.png)
-![Test: Single-Element List](Screenshot3.png)
-![Test: Invalid Input (letters)](Screenshot3.png)
+![Test: Single-Element List](Screenshot4.png)
+![Test: Invalid Input (letters)](Screenshot5.png)
 
 
 Overall, the app behaved correctly for valid and invalid inputs.  
