@@ -17,5 +17,56 @@ The program uses a simple flow: the user inputs a list of numbers and a target v
 Flowchart
 ![Flowchart](Flowchart.jpg)
 
+Testing & Verification
+
+To verify that my linear search visualizer works correctly, I tested it with several different types of inputs.  
+For each test, I checked whether the output matched what the algorithm should return.
+
+Test 1: Target in the Middle**
+Input list: 5, 8, 2, 7, 9, 3  
+Target: 7  
+Expected result: Target found at index 3  
+Actual result: Correct  
+The visualizer showed each checked index and stopped when it reached 7.
+
+Test 2: Target Not in the List**
+Input list: 1, 2, 3, 4  
+Target: 10  
+Expected result: Target not found  
+Actual result: Correct  
+The program checked every element and displayed “Target not found.”
+
+Test 3: Target at the Beginning**
+Input list: 5, 9, 8  
+Target: 5  
+Expected result: Target found at index 0  
+**Actual result: Correct  
+The algorithm stopped immediately because the first value matched.
+
+Test 4: Single-Element List
+Input list: 7  
+Target: 7  
+Expected result: Target found at index 0  
+Actual result: Correct
+
+Test 5: Invalid Input (letters)
+Input list: hello, 3, x  
+Target: 3  
+Expected result: Error message  
+Actual result: ✔ Correct  
+The program displayed a validation error instead of crashing.
+
+Screenshots of Tests
+
+![Test: Target Found](screenshot1.png)  
+![Test: Target Not Found](screenshot2.png)  
+![Test: Invalid Input](screenshot3.png)
+![Test: Single-Element List](screenshot3.png)
+![Test: Invalid Input (letters)](screenshot3.png)
+
+
+Overall, the app behaved correctly for valid and invalid inputs.  
+All results matched what the linear search algorithm is supposed to produce.
+
 
 https://huggingface.co/spaces/Durrdana/cisc121-linear-search-visualizer 
