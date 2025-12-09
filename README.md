@@ -101,3 +101,6 @@ All results matched what the linear search algorithm is supposed to produce.
 
 
 https://huggingface.co/spaces/Durrdana/cisc121-linear-search-visualizer 
+
+AI Acknowledgment
+This project was supported by AI tools (ChatGPT) for general guidance, explaining concepts, and help with structuring the README. All code, testing, and design decisions were created, reviewed, and verified by me
